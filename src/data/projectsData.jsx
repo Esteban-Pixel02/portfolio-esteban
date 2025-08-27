@@ -1,4 +1,4 @@
-// src/data/projectsData.jsx
+
 export const projectsData = [
   {
     id: 1,

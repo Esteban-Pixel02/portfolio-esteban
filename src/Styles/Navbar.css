@@ -20,7 +20,7 @@
 
 /* Burger button */
 .burger {
-  display: none; /* caché par défaut */
+  display: none; 
   flex-direction: column;
   justify-content: space-between;
   width: 25px;
@@ -39,7 +39,7 @@
   transition: all 0.3s ease;
 }
 
-/* Animation burger -> X */
+/* Animation burger */
 .burger.toggle span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -52,7 +52,7 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Mobile styles */
+
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;

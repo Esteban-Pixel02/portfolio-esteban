@@ -1,4 +1,4 @@
-// src/pages/Projects.jsx
+
 import { Link } from "react-router-dom";
 import { projectsData } from "../data/projectsData";
 
